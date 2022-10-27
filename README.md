@@ -2,7 +2,7 @@
 
 Clone repository
 ```
-git clone 
+git clone git@github.com:cecilieol/kpmg-codetest.git
 ```
 
 Install dependencies
