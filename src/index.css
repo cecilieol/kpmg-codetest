@@ -1,0 +1,130 @@
+body {
+  width: 90%;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav .arrow {
+  margin: 0 5px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid black;
+}
+
+.new-note {
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.search {
+  margin: 20px 0;
+  padding: 5px;
+  width: 250px;
+  border-radius: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 100%;
+}
+
+th {
+ text-align: left; 
+ padding-right: 20px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tr {
+  height: 40px;
+}
+
+td {
+  font-size: small;
+  padding-right: 10px;
+}
+
+.title {
+  min-width: 250px;
+}
+
+.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 4px;
+  background: rgb(45, 45, 45);
+  color: white;
+  padding: 3px;
+  line-height: 20px;
+}
+
+.short {
+  max-width: 100px;
+}
+
+.load-more {
+  width: 100%;
+  padding: 5px;
+}
+
+.popup {
+  position: absolute;
+  margin: auto;
+  left: 20%;
+  border: 1px solid black;
+  background: black;
+  opacity: 90%;
+  color: white;
+  width: 50vw;
+  height: 50vh;
+}
+
+.popup h1 {
+  padding: 15px;
+}
+
+.popup-btn {
+  position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.link-icon {
+  width: 15px;
+}
+
+.user-photo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
