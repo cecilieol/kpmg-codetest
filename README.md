@@ -1,9 +1,6 @@
 # KPMG Codetest
 
-Clone repository
-```
-git clone git@github.com:cecilieol/kpmg-codetest.git
-```
+Download repository
 
 Install dependencies
 ```
