@@ -1,6 +1,6 @@
 # KPMG Codetest
 
-Download repository
+[Download repository](https://github.com/cecilieol/kpmg-codetest/archive/refs/heads/main.zip)
 
 Install dependencies
 ```
